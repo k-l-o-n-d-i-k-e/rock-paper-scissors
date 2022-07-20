@@ -42,7 +42,7 @@ body{
     margin-top: 50px;
 }
 
-.result-score, p{
+.result-score{
     margin-left: .1rem;
     font-size: 24px;
 }
