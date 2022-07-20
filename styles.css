@@ -6,6 +6,7 @@
 body{
     background-color: black;
     color: white;
+    font-family: 'MontserratAlternatesRegular'; 
 }
 
 .selections, h1{
@@ -13,12 +14,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(17, 17, 17);
+    margin: 0 auto;
     
 }
 
 
 .selection{
     background: none;
+    padding: 10px;
     border: none;
     outline: none;
     cursor: pointer;
