@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.selection{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 100px;
+/* this makes the hover smooth */
+    transition: 100ms;
+}
+
+.selection:hover {
+    /* this makes the emojis bigger when hovering */
+    transform: scale(1.2);
+}
+
+.result{
+    display: grid;
+    justify-content: center;
+    /*this makes two colums of the same size*/
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.result-score{
+    margin-left: .1rem;
+    font-size: 24px;
+}
